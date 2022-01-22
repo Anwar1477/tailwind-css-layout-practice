@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <!-- Link Tailwind CSS  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body>
+ <h1 class="text-5xl m-4">Grid Layout</h1>
+ <section class="bg-yellow-400 grid grid-cols-3 gap-1 m-4 p-4">
+     <div class="bg-emerald-400 p-4 m-4 col-span-3 rounded">Header</div>
+     <div class="bg-emerald-400 p-4 m-4 h-64 col-span-2 row-span-2 rounded">Article</div>
+     <div class="bg-emerald-400 p-4 m-4 row-span-2 rounded">Nav</div>
+     <div class="bg-emerald-400 p-4 m-4 col-span-3 rounded">Footer</div>
+ </section>
+ <section class="bg-yellow-400 grid grid-cols-4 gap-1 m-4 p-4">
+    <div class="bg-emerald-400 p-4 m-4 col-span-4 rounded">Header</div>
+    <div class="bg-emerald-400 p-4 m-4 h-64 col-span-2 row-span-2 rounded">Article</div>
+    <div class="bg-emerald-400 p-4 m-4 col-span-2 row-span-2 rounded">Nav</div>
+    <div class="bg-emerald-400 p-4 m-4 col-span-4 rounded">Footer</div>
+</section>
+<section class="bg-yellow-400 grid grid-cols-4 gap-1 m-4 p-4">
+    <div class="bg-emerald-400 p-4 m-4 col-span-4 rounded">Header</div>
+    <div class="bg-emerald-400 p-4 m-4 col-span-2 row-span-2 rounded">Header 2</div>
+    <div class="bg-emerald-400 p-4 m-4 h-64 row-span-2 rounded">Article</div>
+    <div class="bg-emerald-400 p-4 m-4 row-span-2 rounded">Nav</div>
+    <div class="bg-emerald-400 p-4 m-4 col-span-4 rounded">Footer</div>
+</section>
+
+</body>
+</html>
